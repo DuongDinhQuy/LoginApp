@@ -1,0 +1,31 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LoginApp.HistoryPage"
+             Title="Lịch sử thiết bị và môi trường">
+    <ScrollView>
+        <VerticalStackLayout Padding="24" Spacing="24">
+            <Label Text="Lịch sử Nhiệt độ và Độ ẩm (3 ngày gần nhất)" FontSize="18" FontAttributes="Bold"/>
+            <CollectionView x:Name="TempHumiListView" HeightRequest="250">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame BorderColor="LightGray" CornerRadius="8" Padding="8" Margin="0,2,0,2">
+                            <Label Text="{Binding Display}"/>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <BoxView HeightRequest="2" Color="LightGray"/>
+            <Label Text="Lịch sử bật/tắt thiết bị (3 ngày gần nhất)" FontSize="18" FontAttributes="Bold"/>
+            <CollectionView x:Name="DeviceActionListView" HeightRequest="250">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame BorderColor="LightGray" CornerRadius="8" Padding="8" Margin="0,2,0,2">
+                            <Label Text="{Binding Display}"/>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

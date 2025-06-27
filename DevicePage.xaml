@@ -1,0 +1,108 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LoginApp.DevicePage"
+             Title="Điều khiển và Lập lịch thiết bị">
+    <ScrollView>
+        <VerticalStackLayout Padding="24" Spacing="24">
+            <!-- Điều khiển thiết bị -->
+            <Label Text="Thiết bị điều khiển" FontSize="24" HorizontalOptions="Center" Margin="0,0,0,12"/>
+            <Frame BorderColor="Gray" CornerRadius="10" Padding="10" BackgroundColor="WhiteSmoke">
+                <VerticalStackLayout Spacing="10">
+                    <Grid ColumnDefinitions="*,Auto">
+                        <Label Text="Tự động bơm khi nước cạn" VerticalOptions="Center"/>
+                        <Switch x:Name="AutoPumpSwitch" Toggled="AutoPumpSwitch_Toggled" Grid.Column="1"/>
+                    </Grid>
+                    <Grid ColumnDefinitions="*,Auto">
+                        <Label Text="Tự động bật đèn khi trời tối" VerticalOptions="Center"/>
+                        <Switch x:Name="AutoLightSwitch" Toggled="AutoLightSwitch_Toggled" Grid.Column="1"/>
+                    </Grid>
+                    <!-- ĐIỀU KIỆN NHIỆT ĐỘ: ĐẨY SWITCH LÊN TRƯỚC, BỎ DÒNG LABEL DƯỚI -->
+                    <Grid ColumnDefinitions="*,Auto,Auto" RowDefinitions="Auto">
+                        <Label Text="Bật đèn khi nhiệt độ dưới" VerticalOptions="Center"/>
+                        <Entry x:Name="TemperatureEntry"
+                               Placeholder="Nhập nhiệt độ"
+                               WidthRequest="60"
+                               Keyboard="Numeric"
+                               Grid.Column="1"
+                               TextChanged="TemperatureEntry_TextChanged"
+                               IsEnabled="{Binding Source={x:Reference AutoTempSwitch}, Path=IsToggled}"/>
+                        <Label Text="°C" VerticalOptions="Center" Grid.Column="2" Margin="4,0,0,0"/>
+                        <Switch x:Name="AutoTempSwitch"
+                                Grid.Column="1" Grid.Row="0"
+                                HorizontalOptions="End"
+                                VerticalOptions="Center"
+                                Margin="0,0,70,0"
+                                Toggled="AutoTempSwitch_Toggled"/>
+                    </Grid>
+                </VerticalStackLayout>
+            </Frame>
+            <VerticalStackLayout Spacing="12" Margin="0,18,0,0">
+                <Button x:Name="PumpButton"
+                        Text="Bật Bơm"
+                        BackgroundColor="LightGreen"
+                        Clicked="OnPumpButtonClicked"/>
+                <Button x:Name="LightButton"
+                        Text="Bật Đèn"
+                        BackgroundColor="LightBlue"
+                        Clicked="OnLightButtonClicked"/>
+                <Button x:Name="ValveButton"
+                        Text="Bật Van Nước"
+                        BackgroundColor="LightSkyBlue"
+                        Clicked="OnValveButtonClicked"/>
+            </VerticalStackLayout>
+
+            <!-- Lập lịch thiết bị -->
+            <BoxView HeightRequest="2" Color="LightGray" Margin="0,16"/>
+            <Label Text="Lập lịch bật/tắt thiết bị" FontSize="24" HorizontalOptions="Center" Margin="0,8,0,0"/>
+
+            <!-- Chọn thiết bị -->
+            <Label Text="Chọn thiết bị" FontSize="18"/>
+            <Picker x:Name="DevicePicker" Title="Chọn thiết bị" SelectedIndexChanged="DevicePicker_SelectedIndexChanged">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Bơm</x:String>
+                        <x:String>Đèn</x:String>
+                        <x:String>Van nước</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+
+            <!-- Chọn ngày cụ thể -->
+            <Label Text="Ngày thực hiện" FontSize="18"/>
+            <DatePicker x:Name="SpecificDatePicker" />
+
+            <!-- Chọn giờ bật -->
+            <Label Text="Giờ bật" FontSize="18"/>
+            <TimePicker x:Name="StartTimePicker" Time="06:00:00"/>
+
+            <!-- Chọn giờ tắt (ẩn khi chọn Bơm hoặc Van nước) -->
+            <StackLayout x:Name="EndTimePanel">
+                <Label Text="Giờ tắt" FontSize="18"/>
+                <TimePicker x:Name="EndTimePicker" Time="18:00:00"/>
+            </StackLayout>
+
+            <!-- Lưu lập lịch -->
+            <Button Text="Lưu lịch trình" Clicked="OnSaveScheduleClicked" BackgroundColor="MediumSeaGreen" TextColor="White"/>
+
+            <!-- Danh sách lịch đã lưu -->
+            <Label Text="Lịch trình đã lưu" FontSize="18" Margin="0,20,0,0"/>
+            <CollectionView x:Name="ScheduleListView" HeightRequest="200">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame Margin="0,4,0,4" BorderColor="Gray" CornerRadius="8" Padding="8">
+                            <HorizontalStackLayout>
+                                <Label Text="{Binding DisplayText}" FontSize="16" VerticalOptions="Center"/>
+                                <Button Text="Xóa" 
+                                        TextColor="Red"
+                                        BackgroundColor="Transparent"
+                                        Command="{Binding DeleteCommand}"
+                                        CommandParameter="{Binding .}"
+                                        Margin="12,0,0,0"/>
+                            </HorizontalStackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

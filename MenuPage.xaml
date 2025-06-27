@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LoginApp.MenuPage"
+             Title="Menu">
+    <VerticalStackLayout Padding="24" Spacing="16" BackgroundColor="#F5F5F5">
+        <Button Text="Xem thông số môi trường"
+                Clicked="OnEnvParamsClicked"
+                FontSize="18"
+                BackgroundColor="White"
+                TextColor="Black"/>
+        <Button Text="Điều khiển thiết bị"
+                Clicked='OnDeviceControlClicked'
+                FontSize="18"
+                BackgroundColor="White"
+                TextColor="Black"/>
+        <Button Text="Lịch sử hoạt động"
+               Clicked="History_Clicked"
+                FontSize="18"
+                BackgroundColor="White"
+                TextColor="Black"/>
+        <Button Text="Đăng xuất"
+                Clicked="OnBackClicked"
+                FontSize="18"
+                BackgroundColor="#EEE"
+                TextColor="Black"/>
+    </VerticalStackLayout>
+</ContentPage>

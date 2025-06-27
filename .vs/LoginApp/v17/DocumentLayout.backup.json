@@ -1,0 +1,383 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Duc123\\LoginApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Duc123\\LoginApp\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01A9E1BB-6CF1-49A5-AA9B-1E08A2BF64DD}|LoginApp.csproj|d:\\duc123\\loginapp\\service\\mqttcontrolservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01A9E1BB-6CF1-49A5-AA9B-1E08A2BF64DD}|LoginApp.csproj|solutionrelative:service\\mqttcontrolservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01A9E1BB-6CF1-49A5-AA9B-1E08A2BF64DD}|LoginApp.csproj|d:\\duc123\\loginapp\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01A9E1BB-6CF1-49A5-AA9B-1E08A2BF64DD}|LoginApp.csproj|solutionrelative:loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01A9E1BB-6CF1-49A5-AA9B-1E08A2BF64DD}|LoginApp.csproj|d:\\duc123\\loginapp\\devicepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01A9E1BB-6CF1-49A5-AA9B-1E08A2BF64DD}|LoginApp.csproj|solutionrelative:devicepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01A9E1BB-6CF1-49A5-AA9B-1E08A2BF64DD}|LoginApp.csproj|d:\\duc123\\loginapp\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01A9E1BB-6CF1-49A5-AA9B-1E08A2BF64DD}|LoginApp.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01A9E1BB-6CF1-49A5-AA9B-1E08A2BF64DD}|LoginApp.csproj|d:\\duc123\\loginapp\\service\\mqttservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01A9E1BB-6CF1-49A5-AA9B-1E08A2BF64DD}|LoginApp.csproj|solutionrelative:service\\mqttservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01A9E1BB-6CF1-49A5-AA9B-1E08A2BF64DD}|LoginApp.csproj|d:\\duc123\\loginapp\\service\\mqttdeviceclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01A9E1BB-6CF1-49A5-AA9B-1E08A2BF64DD}|LoginApp.csproj|solutionrelative:service\\mqttdeviceclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01A9E1BB-6CF1-49A5-AA9B-1E08A2BF64DD}|LoginApp.csproj|d:\\duc123\\loginapp\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{01A9E1BB-6CF1-49A5-AA9B-1E08A2BF64DD}|LoginApp.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01A9E1BB-6CF1-49A5-AA9B-1E08A2BF64DD}|LoginApp.csproj|d:\\duc123\\loginapp\\globals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01A9E1BB-6CF1-49A5-AA9B-1E08A2BF64DD}|LoginApp.csproj|solutionrelative:globals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01A9E1BB-6CF1-49A5-AA9B-1E08A2BF64DD}|LoginApp.csproj|d:\\duc123\\loginapp\\menupage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01A9E1BB-6CF1-49A5-AA9B-1E08A2BF64DD}|LoginApp.csproj|solutionrelative:menupage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01A9E1BB-6CF1-49A5-AA9B-1E08A2BF64DD}|LoginApp.csproj|d:\\duc123\\loginapp\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01A9E1BB-6CF1-49A5-AA9B-1E08A2BF64DD}|LoginApp.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01A9E1BB-6CF1-49A5-AA9B-1E08A2BF64DD}|LoginApp.csproj|d:\\duc123\\loginapp\\devicepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{01A9E1BB-6CF1-49A5-AA9B-1E08A2BF64DD}|LoginApp.csproj|solutionrelative:devicepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01A9E1BB-6CF1-49A5-AA9B-1E08A2BF64DD}|LoginApp.csproj|d:\\duc123\\loginapp\\historypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01A9E1BB-6CF1-49A5-AA9B-1E08A2BF64DD}|LoginApp.csproj|solutionrelative:historypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01A9E1BB-6CF1-49A5-AA9B-1E08A2BF64DD}|LoginApp.csproj|d:\\duc123\\loginapp\\service\\packet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01A9E1BB-6CF1-49A5-AA9B-1E08A2BF64DD}|LoginApp.csproj|solutionrelative:service\\packet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01A9E1BB-6CF1-49A5-AA9B-1E08A2BF64DD}|LoginApp.csproj|d:\\duc123\\loginapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01A9E1BB-6CF1-49A5-AA9B-1E08A2BF64DD}|LoginApp.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01A9E1BB-6CF1-49A5-AA9B-1E08A2BF64DD}|LoginApp.csproj|d:\\duc123\\loginapp\\menupage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{01A9E1BB-6CF1-49A5-AA9B-1E08A2BF64DD}|LoginApp.csproj|solutionrelative:menupage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01A9E1BB-6CF1-49A5-AA9B-1E08A2BF64DD}|LoginApp.csproj|d:\\duc123\\loginapp\\loginapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{01A9E1BB-6CF1-49A5-AA9B-1E08A2BF64DD}|LoginApp.csproj|solutionrelative:loginapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01A9E1BB-6CF1-49A5-AA9B-1E08A2BF64DD}|LoginApp.csproj|d:\\duc123\\loginapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{01A9E1BB-6CF1-49A5-AA9B-1E08A2BF64DD}|LoginApp.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01A9E1BB-6CF1-49A5-AA9B-1E08A2BF64DD}|LoginApp.csproj|d:\\duc123\\loginapp\\menupage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{01A9E1BB-6CF1-49A5-AA9B-1E08A2BF64DD}|LoginApp.csproj|solutionrelative:menupage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01A9E1BB-6CF1-49A5-AA9B-1E08A2BF64DD}|LoginApp.csproj|d:\\duc123\\loginapp\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{01A9E1BB-6CF1-49A5-AA9B-1E08A2BF64DD}|LoginApp.csproj|solutionrelative:loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\35.0.61\\targets\\Microsoft.Android.Sdk.Tooling.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01A9E1BB-6CF1-49A5-AA9B-1E08A2BF64DD}|LoginApp.csproj|d:\\duc123\\loginapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{01A9E1BB-6CF1-49A5-AA9B-1E08A2BF64DD}|LoginApp.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MenuPage.xaml.cs",
+              "DocumentMoniker": "D:\\Duc123\\LoginApp\\MenuPage.xaml.cs",
+              "RelativeDocumentMoniker": "MenuPage.xaml.cs",
+              "ToolTip": "D:\\Duc123\\LoginApp\\MenuPage.xaml.cs",
+              "RelativeToolTip": "MenuPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswB0AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T06:43:41.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DevicePage.xaml.cs",
+              "DocumentMoniker": "D:\\Duc123\\LoginApp\\DevicePage.xaml.cs",
+              "RelativeDocumentMoniker": "DevicePage.xaml.cs",
+              "ToolTip": "D:\\Duc123\\LoginApp\\DevicePage.xaml.cs",
+              "RelativeToolTip": "DevicePage.xaml.cs",
+              "ViewState": "AgIAALsAAAAAAAAAAAAcwPMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T08:31:53.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "D:\\Duc123\\LoginApp\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "LoginPage.xaml.cs",
+              "ToolTip": "D:\\Duc123\\LoginApp\\LoginPage.xaml.cs",
+              "RelativeToolTip": "LoginPage.xaml.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACIAAABxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T07:56:20.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "D:\\Duc123\\LoginApp\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MainPage.xaml.cs",
+              "ToolTip": "D:\\Duc123\\LoginApp\\MainPage.xaml.cs",
+              "RelativeToolTip": "MainPage.xaml.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAUwDoAAACDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T08:20:48.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MQTTDeviceClient.cs",
+              "DocumentMoniker": "D:\\Duc123\\LoginApp\\Service\\MQTTDeviceClient.cs",
+              "RelativeDocumentMoniker": "Service\\MQTTDeviceClient.cs",
+              "ToolTip": "D:\\Duc123\\LoginApp\\Service\\MQTTDeviceClient.cs",
+              "RelativeToolTip": "Service\\MQTTDeviceClient.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAUwKcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T08:57:05.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MQTTService.cs",
+              "DocumentMoniker": "D:\\Duc123\\LoginApp\\Service\\MQTTService.cs",
+              "RelativeDocumentMoniker": "Service\\MQTTService.cs",
+              "ToolTip": "D:\\Duc123\\LoginApp\\Service\\MQTTService.cs",
+              "RelativeToolTip": "Service\\MQTTService.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAIwFAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T08:56:37.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.g.i.cs",
+              "DocumentMoniker": "D:\\Duc123\\LoginApp\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeDocumentMoniker": "obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ToolTip": "D:\\Duc123\\LoginApp\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeToolTip": "obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAMwEQAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T07:41:02.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HistoryPage.xaml.cs",
+              "DocumentMoniker": "D:\\Duc123\\LoginApp\\HistoryPage.xaml.cs",
+              "RelativeDocumentMoniker": "HistoryPage.xaml.cs",
+              "ToolTip": "D:\\Duc123\\LoginApp\\HistoryPage.xaml.cs",
+              "RelativeToolTip": "HistoryPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T09:00:25.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MqttControlService.cs",
+              "DocumentMoniker": "D:\\Duc123\\LoginApp\\Service\\MqttControlService.cs",
+              "RelativeDocumentMoniker": "Service\\MqttControlService.cs",
+              "ToolTip": "D:\\Duc123\\LoginApp\\Service\\MqttControlService.cs",
+              "RelativeToolTip": "Service\\MqttControlService.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAIwEYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T08:55:16.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "D:\\Duc123\\LoginApp\\AppShell.xaml",
+              "RelativeDocumentMoniker": "AppShell.xaml",
+              "ToolTip": "D:\\Duc123\\LoginApp\\AppShell.xaml",
+              "RelativeToolTip": "AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-25T08:49:48.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Globals.cs",
+              "DocumentMoniker": "D:\\Duc123\\LoginApp\\Globals.cs",
+              "RelativeDocumentMoniker": "Globals.cs",
+              "ToolTip": "D:\\Duc123\\LoginApp\\Globals.cs",
+              "RelativeToolTip": "Globals.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T03:53:10.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "D:\\Duc123\\LoginApp\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiProgram.cs",
+              "ToolTip": "D:\\Duc123\\LoginApp\\MauiProgram.cs",
+              "RelativeToolTip": "MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T15:40:09.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DevicePage.xaml",
+              "DocumentMoniker": "D:\\Duc123\\LoginApp\\DevicePage.xaml",
+              "RelativeDocumentMoniker": "DevicePage.xaml",
+              "ToolTip": "D:\\Duc123\\LoginApp\\DevicePage.xaml",
+              "RelativeToolTip": "DevicePage.xaml",
+              "ViewState": "AgIAADUAAAAAAAAAAAAowGsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-20T08:26:10.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Packet.cs",
+              "DocumentMoniker": "D:\\Duc123\\LoginApp\\Service\\Packet.cs",
+              "RelativeDocumentMoniker": "Service\\Packet.cs",
+              "ToolTip": "D:\\Duc123\\LoginApp\\Service\\Packet.cs",
+              "RelativeToolTip": "Service\\Packet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T03:00:13.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\Duc123\\LoginApp\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "D:\\Duc123\\LoginApp\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T02:52:45.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MenuPage.xaml",
+              "DocumentMoniker": "D:\\Duc123\\LoginApp\\MenuPage.xaml",
+              "RelativeDocumentMoniker": "MenuPage.xaml",
+              "ToolTip": "D:\\Duc123\\LoginApp\\MenuPage.xaml",
+              "RelativeToolTip": "MenuPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-17T06:46:51.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LoginApp.csproj",
+              "DocumentMoniker": "D:\\Duc123\\LoginApp\\LoginApp.csproj",
+              "RelativeDocumentMoniker": "LoginApp.csproj",
+              "ToolTip": "D:\\Duc123\\LoginApp\\LoginApp.csproj",
+              "RelativeToolTip": "LoginApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-24T06:04:49.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "D:\\Duc123\\LoginApp\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MainPage.xaml",
+              "ToolTip": "D:\\Duc123\\LoginApp\\MainPage.xaml",
+              "RelativeToolTip": "MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-06T08:20:27.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MenuPage.xaml",
+              "DocumentMoniker": "D:\\Duc123\\LoginApp\\MenuPage.xaml",
+              "RelativeDocumentMoniker": "MenuPage.xaml",
+              "ToolTip": "D:\\Duc123\\LoginApp\\MenuPage.xaml",
+              "RelativeToolTip": "MenuPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-17T06:45:47.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "D:\\Duc123\\LoginApp\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "LoginPage.xaml",
+              "ToolTip": "D:\\Duc123\\LoginApp\\LoginPage.xaml",
+              "RelativeToolTip": "LoginPage.xaml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowCkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-21T06:29:52.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Microsoft.Android.Sdk.Tooling.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\35.0.61\\targets\\Microsoft.Android.Sdk.Tooling.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\35.0.61\\targets\\Microsoft.Android.Sdk.Tooling.targets",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAqwD0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-06-17T02:57:49.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\Duc123\\LoginApp\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "D:\\Duc123\\LoginApp\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-17T02:52:42.407Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
